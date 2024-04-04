@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>warafact</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ccc;
+        }
+
+        .personal-info, .education, .skills, .projects, .links, .references {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .profile img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile">
+        <img src="harry.jpg" alt="Profile Picture">
+    </div>
+
+    <section class="personal-info">
+        <h2 class="section-title">Personal Information</h2>
+        <i class="fas fa-clock"></i>
+        <p>Name: Harry Angelo Catada</p>
+        <p>Email: harryangelocatada@gmail.com</p>
+        <p>Phone: 09658726825</p>
+    </section>
+
+    <section class="education">
+        <h2 class="section-title">Education</h2>
+        <p>Bachelor's Degree in Computer Science</p>
+        <p>University of Science&Technology, 2021 - 2025</p>
+    </section>
+
+    <section class="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Dart</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+            <li>Project 1: School Mate</li>
+            <li>Project 2: Upgraded AI</li>
+        </ul>
+    </section>
+
+    <section class="links">
+        <h2 class="section-title">Links</h2>
+        <a href="https://github.com/johndoe">GitHub</a><br>
+        <a href="https://linkedin.com/in/johndoe">LinkedIn</a>
+    </section>
+
+    <section class="references">
+        <h2 class="section-title">References</h2>
+        <p>Available upon request</p>
+    </section>
+</div>
+
+</body>
+</html>
